@@ -98,8 +98,7 @@ public class MainActivity extends Activity {
 
         new AlertDialog.Builder(this)
                 .setTitle("Cartel TV — Server Address")
-                .setMessage("Enter the address of your StreamBox server
-(same one you use in the browser).")
+                                .setMessage("Enter the address of your StreamBox server\n(same one you use in the browser).")
                 .setView(input)
                 .setCancelable(false)
                 .setPositiveButton("Connect", (d, w) -> {
