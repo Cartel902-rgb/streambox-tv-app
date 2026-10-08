@@ -1,0 +1,22 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.streambox.tv'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.streambox.tv"
+        minSdk 22          // Fire OS 5 and up — every Fire TV ever made
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}
